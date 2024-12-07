@@ -1,10 +1,10 @@
 import numpy as np
 
-class normalizer:
+class MinMaxScaler:
     def __init__(self):
         self.denominator=None
         self.min=None
-    def normalize(self,X):
+    def fit_transform(self,X):
         column=X.shape[1]
 
         min=[]
@@ -27,5 +27,5 @@ class normalizer:
         self.min=min_array
         self.denominator=max_array-min_array
         return (X-min_array)/self.denominator
-    def spnormalize(self,X,multiple,intercept):
-        return (X-intercept)/multiple
+    def transform(self,X):
+        return (X-self.min)/self.denominator

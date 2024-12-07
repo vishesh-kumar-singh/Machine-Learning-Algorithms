@@ -2,19 +2,24 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from LinearRegression import LinearRegression
+from Normalizer import MinMaxScaler
 
 training=pd.read_csv("Dummy Data HSS.csv")
 training.dropna(inplace=True)
-x_train=training[["TV","Radio","Social Media"]].values
+x_train_unscaled=training[["TV","Radio","Social Media"]].values
 
 y_train=training[["Sales"]].values
+
+scaler=MinMaxScaler()
+x_train=scaler.fit_transform(x_train_unscaled)
 
 model=LinearRegression(60000,0.1)
 model.fit(x_train,y_train)
 
 user_budgett,user_budgetr,user_budgets=map(float,input("What are you planning to invest in Television, Radio and Social Media Advertisement respectively in millions: ").split(','))
 
-budget=np.array([user_budgett,user_budgetr,user_budgett]).reshape(1,-1)
+budget_unscaled=np.array([user_budgett,user_budgetr,user_budgett]).reshape(1,-1)
+budget=scaler.transform(budget_unscaled)
 sales=model.predict(budget)
 error=model.training_rmse
 confidence_levels = {90: 1.645,95: 1.96,99: 2.576}
