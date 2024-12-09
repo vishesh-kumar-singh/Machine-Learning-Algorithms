@@ -26,9 +26,16 @@ Machine-Learning-Algorithms/
 │   ├── README.md  
 │   └── Sales_Predictor.py  
 │  
-|── Logistic-Regression/  
-|   ├── Algorithm.py  
-|   ├── data.csv  
-|   ├── predictor.ipynb  
-|   ├── README.md  
-|   └── Confusion_Matrix.png  
+│── Logistic-Regression/  
+│   ├── Algorithm.py  
+│   ├── data.csv  
+│   ├── predictor.ipynb  
+│   ├── README.md  
+│   └── Confusion_Matrix.png  
+│── Exponential-Regression/
+│   ├── Algorithm.py  
+│   ├── HousePrice.csv  
+│   ├── Predictor.ipynb  
+│   ├── README.md  
+│   ├── Exponential-Regression-Plot.png 
+│   └── Linear-Regression-Plot.png
