@@ -26,7 +26,7 @@ Machine-Learning-Algorithms/
 │   ├── Dummy Data HSS.csv  
 │   ├── README.md  
 │   ├── Normalizer.py  
-│   └── Sales_Predictor.py
+│   └── Sales_Predictor.py  
 │  
 │── Logistic-Regression/  
 │   ├── Algorithm.py  
