@@ -25,12 +25,14 @@ Machine-Learning-Algorithms/
 │   ├── LinearRegression.py  
 │   ├── Dummy Data HSS.csv  
 │   ├── README.md  
-│   └── Sales_Predictor.py  
+│   ├── Normalizer.py  
+│   └── Sales_Predictor.py
 │  
 │── Logistic-Regression/  
 │   ├── Algorithm.py  
 │   ├── data.csv  
 │   ├── predictor.ipynb  
+│   ├── Normalizer.py  
 │   ├── README.md  
 │   └── Confusion_Matrix.png  
 │  
