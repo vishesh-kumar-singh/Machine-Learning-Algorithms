@@ -17,6 +17,6 @@ So I assumed a function as <b>e<sup>XA</sup>+c</b> (here matrix X is along with 
 Then after deriving the gradient for this function and applying it in my algorithm I achieved a better graph for the same as shown bellow.  
 <div style="text-align: center;">
   <img src="Exponential-Regression-Plot.png" alt="Exponential Regression Plot" style="border: 2px solid black; display: block; margin-left: auto; margin-right: auto;" width=300>
-  <p style="font-size: 12px;">Line"Exponential Regression Plot</p>
+  <p style="font-size: 12px;">Exponential Regression Plot</p>
 </div>
 Although for higher values of predicted prices there is still deviation since the true relation may not even be exponential and maybe a higher degree polynomial function, but assuming the exponential function reduced the test lost to <b>0.11</b>

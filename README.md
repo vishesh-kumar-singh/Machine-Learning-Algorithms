@@ -8,6 +8,7 @@ Currently the following algorithms are included-
 - **K-Nearest Neighbors (KNN)**
 - **Linear Regression**
 - **Logistic Regression**
+- **Exponential Regression**
 
 ## Structure of Repository
 
@@ -24,18 +25,21 @@ Machine-Learning-Algorithms/
 │   ├── LinearRegression.py  
 │   ├── Dummy Data HSS.csv  
 │   ├── README.md  
+│   ├── Normalizer.py  
 │   └── Sales_Predictor.py  
 │  
 │── Logistic-Regression/  
 │   ├── Algorithm.py  
 │   ├── data.csv  
 │   ├── predictor.ipynb  
+│   ├── Normalizer.py  
 │   ├── README.md  
 │   └── Confusion_Matrix.png  
-│── Exponential-Regression/
+│  
+│── Exponential-Regression/  
 │   ├── Algorithm.py  
 │   ├── HousePrice.csv  
 │   ├── Predictor.ipynb  
 │   ├── README.md  
-│   ├── Exponential-Regression-Plot.png 
-│   └── Linear-Regression-Plot.png
+│   ├── Exponential-Regression-Plot.png  
+│   └── Linear-Regression-Plot.png  
