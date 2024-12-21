@@ -46,7 +46,7 @@ Machine-Learning-Algorithms/
 │   └── Linear-Regression-Plot.png  
 │  
 ├── Decision-Tree/  
-│   ├── Submissions/
+│   ├── Submissions/  
 │   ├── titanic/  
 │   ├── Predictor.ipynb  
 │   ├── Algorithm.py  
