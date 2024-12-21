@@ -9,6 +9,7 @@ Currently the following algorithms are included-
 - **Linear Regression**
 - **Logistic Regression**
 - **Exponential Regression**
+- **Decision Tree**
 
 ## Structure of Repository
 
@@ -43,3 +44,10 @@ Machine-Learning-Algorithms/
 │   ├── README.md  
 │   ├── Exponential-Regression-Plot.png  
 │   └── Linear-Regression-Plot.png  
+│  
+├── Decision-Tree/  
+│   ├── Submissions/
+│   ├── titanic/  
+│   ├── Predictor.ipynb  
+│   ├── Algorithm.py  
+│   └── README.md  
